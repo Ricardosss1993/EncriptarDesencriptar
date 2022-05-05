@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encriptador y Desencriptador</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="Alura.ico" type="image/x-icon">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/style.css">
+
+    </head>
+    <body>
+        
+        <main class="cajaPrincipal">
+            
+            <img src="Imagenes/Logo_Alura.png">
+            <section class="pantallaDividida">
+                <div class="izquierda">
+                    <textarea type="text" id="mensaje" placeholder="Ingrese el texto aqui"></textarea>
+                    <p class="aclaracion"><img src="Imagenes/Exclamación.png">Solo Letras Minúsculas y sin Acentos</p>
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>   
+                      
+                </div>
+                    
+                <div class="derecha">
+                    <div id="iniciar">
+                        <input type="button" onclick="empezar()" value="Empezar" id="listo">
+                        <img src="Imagenes/Muñeco.png" class="dibujo">
+                        <p id="p1">Pulse el Boton "Empezar" para Iniciar</p>
+                    </div> 
+                    <textarea type="text" id="resultado" placeholder="Esperando Texto para ser Encriptado o Desencriptado" disabled></textarea>
+                    <button id="copiar">Copiar</button>
+                </div>  
+            </section>
+            
+            <footer>
+                <h3>Ricardo Demian Salinas</h3>
+            </footer>
+
+        </main>
+        <script src="JavaSCript/Codigo.js"></script>
+        <script src="JavaSCript/Ocultar.js"></script>
+    </body>
+</html>
